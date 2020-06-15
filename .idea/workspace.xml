@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcfaf8e9-8e82-4e7f-aaef-b9d69db1d015" name="Default Changelist" comment="add normal vectors in terrainHeightmap.js&#10;solution for normal vectors:&#10; - precomputation of the vectors =&gt; data stored in an image (r =&gt; x component, g =&gt; y component, b =&gt; z component) &#10;   Implemented in terrainNormalMapGeneration&#10; - read the normal vectors from the image in terrainHeightmap.js" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aram Khachatouri &lt;aram@khachatouri.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZXFfRrSsScnGZc174yFi8q09aI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aram\OneDrive\Dokumente\Studium\JKU\6_Semester\CG UE\private\img" />
+      <recent name="C:\Users\Aram\OneDrive\Dokumente\Studium\JKU\6_Semester\CG UE\private\src\shader" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aram\OneDrive\Dokumente\Studium\JKU\6_Semester\CG UE\private\src\geometricObjects\foundationStone" />
+      <recent name="C:\Users\Aram\OneDrive\Dokumente\Studium\JKU\6_Semester\CG UE\private\img" />
+      <recent name="C:\Users\Aram\OneDrive\Dokumente\Studium\JKU\6_Semester\CG UE\private\src\geometricObjects" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfaf8e9-8e82-4e7f-aaef-b9d69db1d015" name="Default Changelist" comment="" />
+      <created>1584977634634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584977634634</updated>
+      <workItem from="1584977636771" duration="1487000" />
+      <workItem from="1585071540898" duration="5948000" />
+      <workItem from="1585112515178" duration="5736000" />
+      <workItem from="1585125284125" duration="4222000" />
+      <workItem from="1585130341099" duration="15713000" />
+      <workItem from="1585161824161" duration="10344000" />
+      <workItem from="1585198401084" duration="17069000" />
+      <workItem from="1585230150303" duration="14551000" />
+      <workItem from="1585293931902" duration="32000" />
+      <workItem from="1585308870000" duration="48714000" />
+      <workItem from="1585508211121" duration="15368000" />
+      <workItem from="1585597392738" duration="2035000" />
+      <workItem from="1585624659561" duration="718000" />
+      <workItem from="1585636781266" duration="275000" />
+      <workItem from="1585845241392" duration="1249000" />
+      <workItem from="1585934977631" duration="601000" />
+      <workItem from="1586099407328" duration="44000" />
+      <workItem from="1586101461694" duration="7298000" />
+      <workItem from="1586115404853" duration="5600000" />
+      <workItem from="1586157892398" duration="851000" />
+      <workItem from="1586259199017" duration="4343000" />
+      <workItem from="1586268714567" duration="5646000" />
+      <workItem from="1590518503756" duration="2629000" />
+      <workItem from="1590569731411" duration="6395000" />
+      <workItem from="1590580988863" duration="8162000" />
+      <workItem from="1590598039959" duration="3338000" />
+      <workItem from="1590605316888" duration="18000" />
+      <workItem from="1591065700922" duration="2103000" />
+      <workItem from="1591073041660" duration="12543000" />
+      <workItem from="1591092378219" duration="8212000" />
+      <workItem from="1591106449602" duration="2913000" />
+      <workItem from="1591116305685" duration="13291000" />
+      <workItem from="1591132617185" duration="3218000" />
+      <workItem from="1591153690932" duration="2465000" />
+      <workItem from="1591160411184" duration="833000" />
+    </task>
+    <task id="LOCAL-00001" summary="car version 1">
+      <created>1585412868683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585412868683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rename initOctagon method to initRegularOctagon&#10;fix bug in new initRegularOctagon method">
+      <created>1585415363590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585415363590</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1585415807577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585415807577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the tire is now rotating&#10;transformation node added in initCar method to support tire rotation">
+      <created>1585428907763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585428907763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add a octagon documentation,&#10;add normal vectors to initRegularOctagonalPrism">
+      <created>1585488123146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585488123146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add the special effect terrainHeightmap and a simple camera movement, which is changed over the time">
+      <created>1585599386284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585599386284</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Improved the performance in terrainHeightmap.js">
+      <created>1586102739506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586102739506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix bug in terrainHeightmap.js, canvas size not set">
+      <created>1586109031569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586109031569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add normal vectors in terrainHeightmap.js&#10;solution for normal vectors:&#10; - precomputation of the vectors =&gt; data stored in an image (r =&gt; x component, g =&gt; y component, b =&gt; z component) &#10;   Implemented in terrainNormalMapGeneration&#10; - read the normal vectors from the image in terrainHeightmap.js">
+      <created>1586149665657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586149665657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="car version 1" />
+    <MESSAGE value="rename initOctagon method to initRegularOctagon&#10;fix bug in new initRegularOctagon method" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="the tire is now rotating&#10;transformation node added in initCar method to support tire rotation" />
+    <MESSAGE value="add a octagon documentation,&#10;add normal vectors to initRegularOctagonalPrism" />
+    <MESSAGE value="add the special effect terrainHeightmap and a simple camera movement, which is changed over the time" />
+    <MESSAGE value="Improved the performance in terrainHeightmap.js" />
+    <MESSAGE value="fix bug in terrainHeightmap.js, canvas size not set" />
+    <MESSAGE value="add normal vectors in terrainHeightmap.js&#10;solution for normal vectors:&#10; - precomputation of the vectors =&gt; data stored in an image (r =&gt; x component, g =&gt; y component, b =&gt; z component) &#10;   Implemented in terrainNormalMapGeneration&#10; - read the normal vectors from the image in terrainHeightmap.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add normal vectors in terrainHeightmap.js&#10;solution for normal vectors:&#10; - precomputation of the vectors =&gt; data stored in an image (r =&gt; x component, g =&gt; y component, b =&gt; z component) &#10;   Implemented in terrainNormalMapGeneration&#10; - read the normal vectors from the image in terrainHeightmap.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1203" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586149692605">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1203" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586149692605" />
+    <state x="-1280" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585229723534">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1280" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585229723534" />
+    <state x="-2829" y="455" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590587363839">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-1162" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586149322039" />
+    <state x="-2829" y="455" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1590587363839" />
+    <state x="-3001" y="304" key="CommitChangelistDialog2" timestamp="1586288036551">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-1291" y="167" key="CommitChangelistDialog2/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586149737129" />
+    <state x="-3001" y="304" key="CommitChangelistDialog2/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1586288036551" />
+    <state x="-3420" y="466" key="FileChooserDialogImpl" timestamp="1586272627137">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-1605" y="347" key="FileChooserDialogImpl/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586099449272" />
+    <state x="-3420" y="466" key="FileChooserDialogImpl/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1586272627137" />
+    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2" timestamp="1586149668966">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1368" y="261" key="Vcs.Push.Dialog.v2/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586149668966" />
+    <state x="-1242" y="402" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586101653761">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1242" y="402" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1586101653761" />
+    <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689/-1920.0.1920.1050@0.0.1280.689" timestamp="1585292503619" />
+    <state x="-2855" y="461" width="638" height="588" key="find.popup" timestamp="1591155313440">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-2855" y="461" width="638" height="588" key="find.popup/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1591155313440" />
+    <state x="493" y="159" width="557" height="530" key="find.popup/0.0.1280.689/-3840.0.2560.1409@0.0.1280.689" timestamp="1590519179813" />
+    <state x="493" y="159" width="638" height="530" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1591120740004" />
+    <state x="-2716" y="477" key="refactoring.ChangeSignatureDialog" timestamp="1591155534907">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-2716" y="477" key="refactoring.ChangeSignatureDialog/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1591155534907" />
+    <state x="-3019" y="326" key="run.anything.popup" timestamp="1590571579523">
+      <screen x="-3840" y="0" width="2560" height="1409" />
+    </state>
+    <state x="-1304" y="243" key="run.anything.popup/0.0.1280.689/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585583925009" />
+    <state x="-3019" y="326" key="run.anything.popup/0.0.1280.689/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1590571579523" />
+    <state x="623" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1591078140164">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="623" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1591078140164" />
+  </component>
+</project>
